@@ -1,0 +1,21 @@
+{
+    "appName": "newsdoubt",
+    "roleName": "pinpointLambdaRoleb02bee32",
+    "cloudformationPolicyName": "cloudformationPolicyb02bee32",
+    "cloudWatchPolicyName": "cloudWatchPolicyb02bee32",
+    "pinpointPolicyName": "pinpointPolicyb02bee32",
+    "authPolicyName": "pinpoint_amplify_b02bee32",
+    "unauthPolicyName": "pinpoint_amplify_b02bee32",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "identityPoolName": "newsdoubt_identitypool_0d97ed1c",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito0d97ed1c",
+    "sharedId": "0d97ed1c",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

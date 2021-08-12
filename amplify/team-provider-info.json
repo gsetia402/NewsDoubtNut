@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newsdoubt-dev-235603-authRole",
+      "UnauthRoleArn": "arn:aws:iam::497693262412:role/amplify-newsdoubt-dev-235603-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::497693262412:role/amplify-newsdoubt-dev-235603-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-newsdoubt-dev-235603-deployment",
+      "UnauthRoleName": "amplify-newsdoubt-dev-235603-unauthRole",
+      "StackName": "amplify-newsdoubt-dev-235603",
+      "StackId": "arn:aws:cloudformation:us-east-1:497693262412:stack/amplify-newsdoubt-dev-235603/c4deb1b0-f6e3-11eb-8b4e-0a8d2759acd3",
+      "AmplifyAppId": "d110pgkzdfaxqb"
+    },
+    "categories": {
+      "auth": {
+        "cognito0d97ed1c": {}
+      }
+    }
+  }
+}
